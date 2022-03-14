@@ -16,7 +16,6 @@ let package = Package(
     products: [
         .library(
             name: "TwitterApacheThrift",
-            type: .static,
             targets: [
                 "TwitterApacheThrift"
             ]
